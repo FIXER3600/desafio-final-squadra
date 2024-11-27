@@ -1,0 +1,20 @@
+uuid: dd528467-7a8d-4f1b-a1e9-cfa143f80413
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_dificuldade
+field_name: field_dificuldade
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

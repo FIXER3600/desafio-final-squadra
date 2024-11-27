@@ -1,0 +1,9 @@
+uuid: dc6a4f1d-6862-47ba-80be-a0366978987d
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Localizações
+vid: localizacoes
+description: 'Localização das atrações turísticas'
+weight: 0
+new_revision: false

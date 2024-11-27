@@ -1,0 +1,19 @@
+uuid: 8a6359a2-8a7a-4831-bbbe-5919607b27fa
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instrucoes_para_acesso
+    - node.type.parques_de_diversao
+id: node.parques_de_diversao.field_instrucoes_para_acesso
+field_name: field_instrucoes_para_acesso
+entity_type: node
+bundle: parques_de_diversao
+label: 'Instruções para Acesso'
+description: 'Diga a melhor forma de chegar ao parque...'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

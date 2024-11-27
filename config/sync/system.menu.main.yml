@@ -1,0 +1,10 @@
+uuid: 06baa70d-727d-4745-a777-dc1279e6de15
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Navegação principal'
+description: 'Links de seções do site'
+locked: true

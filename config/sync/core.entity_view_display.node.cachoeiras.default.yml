@@ -1,0 +1,94 @@
+uuid: 70780e51-cea6-4177-919d-2655343b1ca6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.cachoeiras.body
+    - field.field.node.cachoeiras.field_altura
+    - field.field.node.cachoeiras.field_dificuldade
+    - field.field.node.cachoeiras.field_imagem_da_cachoeira
+    - field.field.node.cachoeiras.field_instrucoes_para_acesso
+    - field.field.node.cachoeiras.field_localizacao
+    - field.field.node.cachoeiras.field_site_oficial
+    - node.type.cachoeiras
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.cachoeiras.default
+targetEntityType: node
+bundle: cachoeiras
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_altura:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_dificuldade:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_imagem_da_cachoeira:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_instrucoes_para_acesso:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_localizacao:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_site_oficial:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+hidden:
+  langcode: true

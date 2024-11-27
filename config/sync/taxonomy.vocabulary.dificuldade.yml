@@ -1,0 +1,9 @@
+uuid: 958183d2-3897-4861-96f1-53649d177763
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Dificuldade
+vid: dificuldade
+description: 'Dificuldade de Acesso'
+weight: 0
+new_revision: false

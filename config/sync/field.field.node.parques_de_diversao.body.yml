@@ -1,0 +1,26 @@
+uuid: ecba92fe-6852-4554-b317-72666ad2fb0a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.plain_text
+    - node.type.parques_de_diversao
+  module:
+    - text
+id: node.parques_de_diversao.body
+field_name: body
+entity_type: node
+bundle: parques_de_diversao
+label: Descrição
+description: 'Digite uma descrição para o Parque...'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - plain_text
+field_type: text_with_summary

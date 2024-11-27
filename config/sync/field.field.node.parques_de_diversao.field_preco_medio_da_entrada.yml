@@ -1,0 +1,23 @@
+uuid: 18cee8ff-5519-438f-9ffb-8a2a746fc3c6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_preco_medio_da_entrada
+    - node.type.parques_de_diversao
+id: node.parques_de_diversao.field_preco_medio_da_entrada
+field_name: field_preco_medio_da_entrada
+entity_type: node
+bundle: parques_de_diversao
+label: 'Preço Médio da Entrada'
+description: 'Digite o preço médio da entrada do parque...'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: R$
+  suffix: ''
+field_type: decimal

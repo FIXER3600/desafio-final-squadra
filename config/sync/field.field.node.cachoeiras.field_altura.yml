@@ -1,0 +1,23 @@
+uuid: 0cc83d8a-871c-4ac3-92d4-d996277654cd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_altura
+    - node.type.cachoeiras
+id: node.cachoeiras.field_altura
+field_name: field_altura
+entity_type: node
+bundle: cachoeiras
+label: Altura
+description: 'Digite a altura (em metros) da cachoeira...'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: ''
+  suffix: m
+field_type: decimal

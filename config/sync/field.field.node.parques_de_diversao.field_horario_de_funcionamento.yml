@@ -1,0 +1,19 @@
+uuid: fb445cbe-e852-4d5c-b12d-d770965c1387
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horario_de_funcionamento
+    - node.type.parques_de_diversao
+id: node.parques_de_diversao.field_horario_de_funcionamento
+field_name: field_horario_de_funcionamento
+entity_type: node
+bundle: parques_de_diversao
+label: 'Horário de Funcionamento'
+description: 'Informe os dias e horários de funcionamento do Parque...'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

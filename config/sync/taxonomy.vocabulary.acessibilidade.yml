@@ -1,0 +1,9 @@
+uuid: e5da25e4-39fa-499e-bf04-784ee077f164
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Acessibilidade
+vid: acessibilidade
+description: 'Acessibilidades no local'
+weight: 0
+new_revision: false

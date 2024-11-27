@@ -1,0 +1,29 @@
+uuid: d8d90af0-3bdf-49a5-a5f2-1a47f4298995
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_acessibilidade
+    - node.type.parques_de_diversao
+    - taxonomy.vocabulary.acessibilidade
+id: node.parques_de_diversao.field_acessibilidade
+field_name: field_acessibilidade
+entity_type: node
+bundle: parques_de_diversao
+label: Acessibilidade
+description: 'Acessibilidades presentes no Parque.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      acessibilidade: acessibilidade
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

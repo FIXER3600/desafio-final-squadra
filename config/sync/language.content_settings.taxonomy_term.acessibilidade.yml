@@ -1,0 +1,11 @@
+uuid: ecbb3e72-856a-4073-9e67-7bec98865066
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.acessibilidade
+id: taxonomy_term.acessibilidade
+target_entity_type_id: taxonomy_term
+target_bundle: acessibilidade
+default_langcode: site_default
+language_alterable: false
